@@ -1,0 +1,1045 @@
+fileFormatVersion: 2
+guid: c413dece654e73546887e4682ef2750f
+timeCreated: 1541567178
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SpaceInvaderSprites_updateColours_0
+    21300002: SpaceInvaderSprites_updateColours_1
+    21300004: SpaceInvaderSprites_updateColours_2
+    21300006: SpaceInvaderSprites_updateColours_3
+    21300008: SpaceInvaderSprites_updateColours_4
+    21300010: SpaceInvaderSprites_updateColours_5
+    21300012: SpaceInvaderSprites_updateColours_6
+    21300014: SpaceInvaderSprites_updateColours_7
+    21300016: SpaceInvaderSprites_updateColours_8
+    21300018: SpaceInvaderSprites_updateColours_9
+    21300020: SpaceInvaderSprites_updateColours_10
+    21300022: SpaceInvaderSprites_updateColours_11
+    21300024: SpaceInvaderSprites_updateColours_12
+    21300026: SpaceInvaderSprites_updateColours_13
+    21300028: SpaceInvaderSprites_updateColours_14
+    21300030: SpaceInvaderSprites_updateColours_15
+    21300032: SpaceInvaderSprites_updateColours_16
+    21300034: SpaceInvaderSprites_updateColours_17
+    21300036: SpaceInvaderSprites_updateColours_18
+    21300038: SpaceInvaderSprites_updateColours_19
+    21300040: SpaceInvaderSprites_updateColours_20
+    21300042: SpaceInvaderSprites_updateColours_21
+    21300044: SpaceInvaderSprites_updateColours_22
+    21300046: SpaceInvaderSprites_updateColours_23
+    21300048: SpaceInvaderSprites_updateColours_24
+    21300050: SpaceInvaderSprites_updateColours_25
+    21300052: SpaceInvaderSprites_updateColours_26
+    21300054: SpaceInvaderSprites_updateColours_27
+    21300056: SpaceInvaderSprites_updateColours_28
+    21300058: SpaceInvaderSprites_updateColours_29
+    21300060: SpaceInvaderSprites_updateColours_30
+    21300062: SpaceInvaderSprites_updateColours_31
+    21300064: SpaceInvaderSprites_updateColours_32
+    21300066: SpaceInvaderSprites_updateColours_33
+    21300068: SpaceInvaderSprites_updateColours_34
+    21300070: SpaceInvaderSprites_updateColours_35
+    21300072: SpaceInvaderSprites_updateColours_36
+    21300074: SpaceInvaderSprites_updateColours_37
+    21300076: SpaceInvaderSprites_updateColours_38
+    21300078: SpaceInvaderSprites_updateColours_39
+    21300080: SpaceInvaderSprites_updateColours_40
+    21300082: SpaceInvaderSprites_updateColours_41
+    21300084: SpaceInvaderSprites_updateColours_42
+    21300086: SpaceInvaderSprites_updateColours_43
+    21300088: SpaceInvaderSprites_updateColours_44
+    21300090: SpaceInvaderSprites_updateColours_45
+    21300092: SpaceInvaderSprites_updateColours_46
+    21300094: SpaceInvaderSprites_updateColours_47
+    21300096: SpaceInvaderSprites_updateColours_48
+    21300098: SpaceInvaderSprites_updateColours_49
+    21300100: SpaceInvaderSprites_updateColours_50
+    21300102: SpaceInvaderSprites_updateColours_51
+    21300104: SpaceInvaderSprites_updateColours_52
+    21300106: SpaceInvaderSprites_updateColours_53
+    21300108: SpaceInvaderSprites_updateColours_54
+    21300110: SpaceInvaderSprites_updateColours_55
+    21300112: SpaceInvaderSprites_updateColours_56
+    21300114: SpaceInvaderSprites_updateColours_57
+    21300116: SpaceInvaderSprites_updateColours_58
+    21300118: SpaceInvaderSprites_updateColours_59
+    21300120: SpaceInvaderSprites_updateColours_60
+    21300122: SpaceInvaderSprites_updateColours_61
+    21300124: SpaceInvaderSprites_updateColours_62
+    21300126: SpaceInvaderSprites_updateColours_63
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_0
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 657
+        width: 73
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 561
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 561
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 560
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 561
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_5
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 560
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 561
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_7
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 561
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_8
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 560
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_9
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 560
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_10
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 561
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_11
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 561
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 499
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_13
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 499
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_14
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 499
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_15
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 499
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_16
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 499
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_17
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 499
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_18
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 499
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_19
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 499
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_20
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 499
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_21
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 499
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_22
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 499
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_23
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 436
+        width: 51
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_24
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 436
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_25
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 436
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_26
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 436
+        width: 51
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_27
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 436
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_28
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 436
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_29
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 436
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_30
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 436
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_31
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 436
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_32
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 436
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_33
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 436
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_34
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 373
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_35
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 373
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_36
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 373
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_37
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 372
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 372
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_39
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 372
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_40
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 372
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_41
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 372
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_42
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 373
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_43
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 373
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_44
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 373
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_45
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 311
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_46
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 311
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_47
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 311
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_48
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 311
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_49
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 308
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_50
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 311
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_51
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 311
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_52
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 311
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_53
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 311
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_54
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 311
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_55
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 311
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_56
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 249
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_57
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 213
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_58
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 177
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_59
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 145
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_60
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 62
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_61
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 76
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_62
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 30
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpaceInvaderSprites_updateColours_63
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 10
+        width: 60
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
