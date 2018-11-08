@@ -11,6 +11,7 @@ public class EnemyBlockMovement : MonoBehaviour {
 	public float verticalMovement;
 	bool currentlyMoving;
 
+
 	// Use this for initialization
 	void Start () {
 		movingRight = true;
@@ -22,6 +23,8 @@ public class EnemyBlockMovement : MonoBehaviour {
 		if (!currentlyMoving) {
 			StartCoroutine ("MoveEnemy");
 		}
+
+
 	}
 
 	public IEnumerator MoveEnemy(){

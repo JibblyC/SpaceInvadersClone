@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BulletCheck.cs" />
      <Compile Include="Assets\Scripts\EnemyBlockMovement.cs" />
+     <Compile Include="Assets\Scripts\EnemyLineGroup.cs" />
      <Compile Include="Assets\Scripts\EnemyScript.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
  <Reference Include="UnityEngine.UI">

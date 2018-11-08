@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour {
 
-	EnemyBlockMovement enemyBlockMovement;
 
+	public Sprite explosionSprite;
+
+	public AudioSource explosionAudio;
 	// Use this for initialization
 	void Start () {	
-		enemyBlockMovement = FindObjectOfType<EnemyBlockMovement> ();
 	}
 	
 	// Update is called once per frame
@@ -17,17 +18,15 @@ public class EnemyScript : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D collision){
 		if (collision.tag == "Bullet") {
-			Destroy (gameObject);
+			StartCoroutine ("destroyEnemy");
 		}
-		if (collision.tag == "EdgeOfScreenLeft") {
-			enemyBlockMovement.movingRight = true;
-			enemyBlockMovement.transform.Translate (new Vector3(0,-enemyBlockMovement.verticalMovement,0),Space.World);
-			Debug.Log ("Hit Left",gameObject);
-		} else if (collision.tag == "EdgeOfScreenRight") {
-			enemyBlockMovement.movingRight = false;
-			enemyBlockMovement.transform.Translate (new Vector3(0,-enemyBlockMovement.verticalMovement,0),Space.World);
-			Debug.Log ("Hit Right",gameObject);
-		}
-			
+	}
+
+	public IEnumerator destroyEnemy(){
+		explosionAudio.Play();
+		this.GetComponent<SpriteRenderer>().sprite = explosionSprite;
+		this.GetComponent<SpriteRenderer> ().color = Color.white;
+		yield return new WaitForSeconds (0.5f);
+		Destroy (gameObject);
 	}
 }

@@ -18,6 +18,4 @@ public class BulletCheck : MonoBehaviour {
 			Destroy (gameObject);
 		}
 	}
-
-
 }

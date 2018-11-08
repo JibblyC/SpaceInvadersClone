@@ -10,12 +10,14 @@ public class PlayerController : MonoBehaviour {
 
 	public GameObject bulletPrefab;
 	public Transform bulletSpawn;
+	public float fireDelay;
+	private bool canFire;
 
 	public float bulletMoveSpeed;
 
 	// Use this for initialization
 	void Start () {
-		
+		canFire = true;
 	}
 	
 	// Update is called once per frame
@@ -29,16 +31,19 @@ public class PlayerController : MonoBehaviour {
 			rigidBody.velocity = new Vector3 (0f, rigidBody.velocity.y, 0f);
 		}
 			
-		if (Input.GetKeyDown (KeyCode.Space)) {
-			fireGun();
+		if (Input.GetKeyDown (KeyCode.Space) && canFire) {
+			StartCoroutine ("fireGun");
 		}
 			
 	}
 
-	private void fireGun(){
-
+	public IEnumerator fireGun(){
+		
+		canFire = false;
 		var bullet = (GameObject)Instantiate(bulletPrefab, rigidBody.position, bulletSpawn.rotation);
 		bullet.GetComponent<Rigidbody2D>().velocity = new Vector3(0f,bulletMoveSpeed);
+		yield return new WaitForSeconds (fireDelay);
+		canFire = true;
 		
 	}
 }
