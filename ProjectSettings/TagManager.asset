@@ -9,6 +9,7 @@ TagManager:
   - EdgeOfScreenRight
   - Enemy
   - Bullet
+  - DestroyHighEnemy
   layers:
   - Default
   - TransparentFX

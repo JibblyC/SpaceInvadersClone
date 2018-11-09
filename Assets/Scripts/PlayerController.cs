@@ -10,10 +10,10 @@ public class PlayerController : MonoBehaviour {
 
 	public GameObject bulletPrefab;
 	public Transform bulletSpawn;
-	public float fireDelay;
-	private bool canFire;
+	public bool canFire;
 
 	public float bulletMoveSpeed;
+
 
 	// Use this for initialization
 	void Start () {
@@ -32,18 +32,16 @@ public class PlayerController : MonoBehaviour {
 		}
 			
 		if (Input.GetKeyDown (KeyCode.Space) && canFire) {
-			StartCoroutine ("fireGun");
+			fireGun ();
 		}
 			
 	}
 
-	public IEnumerator fireGun(){
+	public void fireGun(){
 		
 		canFire = false;
 		var bullet = (GameObject)Instantiate(bulletPrefab, rigidBody.position, bulletSpawn.rotation);
 		bullet.GetComponent<Rigidbody2D>().velocity = new Vector3(0f,bulletMoveSpeed);
-		yield return new WaitForSeconds (fireDelay);
-		canFire = true;
 		
 	}
 }
