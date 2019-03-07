@@ -5,19 +5,27 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 
 	public Rigidbody2D rigidBody;
-
 	public float moveSpeed;
-
 	public GameObject bulletPrefab;
 	public Transform bulletSpawn;
-	public bool canFire;
 
 	public float bulletMoveSpeed;
+
+	public bool canFire;
+
+	public Vector3 respawnPosition;
+
+	private LevelManager theLevelManager;
+
+	public GameObject deathSound;
+	public Transform deathSoundTransform;
 
 
 	// Use this for initialization
 	void Start () {
 		canFire = true;
+		respawnPosition = transform.position;
+		theLevelManager = FindObjectOfType<LevelManager> ();
 	}
 	
 	// Update is called once per frame
@@ -34,7 +42,16 @@ public class PlayerController : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Space) && canFire) {
 			fireGun ();
 		}
+
+
 			
+	}
+
+	void OnTriggerEnter2D(Collider2D collision){
+		if (collision.tag == "EnemyBullet") {
+			Instantiate(deathSound, gameObject.transform.position, deathSoundTransform.rotation);
+			theLevelManager.Respawn ();
+		}
 	}
 
 	public void fireGun(){

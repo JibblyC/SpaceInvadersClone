@@ -10,7 +10,6 @@ public class TopHighestEnemyScript : MonoBehaviour {
 	public float moveSpeed;
 
 	public GameObject splooshSound;
-	public Transform splooshSoundTransform;
 	// Use this for initialization
 	void Start () {	
 		theLevelManager = FindObjectOfType<LevelManager>();
@@ -36,7 +35,7 @@ public class TopHighestEnemyScript : MonoBehaviour {
 
 	public IEnumerator destroyEnemy(){
 		theLevelManager.updateScore(scoreValue);
-		Instantiate(splooshSound, gameObject.transform.position, splooshSoundTransform.rotation);
+		Instantiate(splooshSound, gameObject.transform.position,  gameObject.transform.rotation);
 		this.GetComponent<SpriteRenderer>().sprite = explosionSprite;
 		this.GetComponent<SpriteRenderer> ().color = Color.white;
 		yield return new WaitForSeconds (0.5f);

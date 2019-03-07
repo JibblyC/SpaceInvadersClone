@@ -15,6 +15,7 @@ public class EnemyLineGroup : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (this.transform.childCount == 0) {
+			enemyBlockMovement.enemyLineList.Remove (gameObject);
 			Destroy (gameObject);
 		}
 		

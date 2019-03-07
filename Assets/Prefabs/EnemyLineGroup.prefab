@@ -196,7 +196,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1585667890446628}
   m_LocalRotation: {x: -0.002705243, y: 0.0019198083, z: 0.0000051935767, w: 0.9999945}
-  m_LocalPosition: {x: 0.2, y: 0.44400033, z: 0.16}
+  m_LocalPosition: {x: -0.9, y: 0.444, z: 0.16}
   m_LocalScale: {x: 0.15127343, y: 0.17559499, z: 1.0016106}
   m_Children:
   - {fileID: 4278239251361134}
@@ -490,7 +490,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 20
   explosionSprite: {fileID: 21300000, guid: c31cd11308fb5f94a9e58a5d92ac6fd8, type: 3}
-  explosionAudio: {fileID: 0}
+  explosionAudio: {fileID: 82183670227768398, guid: 184c0e986a2537b47ae499abe1fa8a7e,
+    type: 2}
+  EnemyBulletPrefab: {fileID: 1753892311462094, guid: a3927b1b0207f9f48b08e86fcd3a6c20,
+    type: 2}
+  bulletSpawn: {fileID: 4518258514638592, guid: a3927b1b0207f9f48b08e86fcd3a6c20,
+    type: 2}
+  bulletMoveSpeed: -5
 --- !u!114 &114600071367409308
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -504,7 +510,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 15
   explosionSprite: {fileID: 21300000, guid: c31cd11308fb5f94a9e58a5d92ac6fd8, type: 3}
-  explosionAudio: {fileID: 0}
+  explosionAudio: {fileID: 82183670227768398, guid: 184c0e986a2537b47ae499abe1fa8a7e,
+    type: 2}
+  EnemyBulletPrefab: {fileID: 1753892311462094, guid: a3927b1b0207f9f48b08e86fcd3a6c20,
+    type: 2}
+  bulletSpawn: {fileID: 4518258514638592, guid: a3927b1b0207f9f48b08e86fcd3a6c20,
+    type: 2}
+  bulletMoveSpeed: -5
 --- !u!114 &114605406653989708
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -518,7 +530,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 10
   explosionSprite: {fileID: 21300000, guid: c31cd11308fb5f94a9e58a5d92ac6fd8, type: 3}
-  explosionAudio: {fileID: 0}
+  explosionAudio: {fileID: 82183670227768398, guid: 184c0e986a2537b47ae499abe1fa8a7e,
+    type: 2}
+  EnemyBulletPrefab: {fileID: 1753892311462094, guid: a3927b1b0207f9f48b08e86fcd3a6c20,
+    type: 2}
+  bulletSpawn: {fileID: 4518258514638592, guid: a3927b1b0207f9f48b08e86fcd3a6c20,
+    type: 2}
+  bulletMoveSpeed: -5
 --- !u!114 &114628038862801980
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -532,7 +550,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 15
   explosionSprite: {fileID: 21300000, guid: c31cd11308fb5f94a9e58a5d92ac6fd8, type: 3}
-  explosionAudio: {fileID: 0}
+  explosionAudio: {fileID: 82183670227768398, guid: 184c0e986a2537b47ae499abe1fa8a7e,
+    type: 2}
+  EnemyBulletPrefab: {fileID: 1753892311462094, guid: a3927b1b0207f9f48b08e86fcd3a6c20,
+    type: 2}
+  bulletSpawn: {fileID: 4518258514638592, guid: a3927b1b0207f9f48b08e86fcd3a6c20,
+    type: 2}
+  bulletMoveSpeed: -5
 --- !u!114 &114656044028425128
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -557,7 +581,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 10
   explosionSprite: {fileID: 21300000, guid: c31cd11308fb5f94a9e58a5d92ac6fd8, type: 3}
-  explosionAudio: {fileID: 0}
+  explosionAudio: {fileID: 82183670227768398, guid: 184c0e986a2537b47ae499abe1fa8a7e,
+    type: 2}
+  EnemyBulletPrefab: {fileID: 1753892311462094, guid: a3927b1b0207f9f48b08e86fcd3a6c20,
+    type: 2}
+  bulletSpawn: {fileID: 4518258514638592, guid: a3927b1b0207f9f48b08e86fcd3a6c20,
+    type: 2}
+  bulletMoveSpeed: -5
 --- !u!212 &212138695947062114
 SpriteRenderer:
   m_ObjectHideFlags: 1

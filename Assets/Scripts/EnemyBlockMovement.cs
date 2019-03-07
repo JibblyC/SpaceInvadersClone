@@ -11,6 +11,8 @@ public class EnemyBlockMovement : MonoBehaviour {
 	public float verticalMovement;
 	bool currentlyMoving;
 
+	public List<GameObject> enemyLineList;
+
 
 	// Use this for initialization
 	void Start () {
