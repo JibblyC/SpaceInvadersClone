@@ -17,9 +17,6 @@ public class PlayerController : MonoBehaviour {
 
 	private LevelManager theLevelManager;
 
-	public GameObject deathSound;
-	public Transform deathSoundTransform;
-
 
 	// Use this for initialization
 	void Start () {
@@ -40,6 +37,7 @@ public class PlayerController : MonoBehaviour {
 		}
 			
 		if (Input.GetKeyDown (KeyCode.Space) && canFire) {
+			this.GetComponent<AudioSource>().Play();
 			fireGun ();
 		}
 
@@ -49,7 +47,6 @@ public class PlayerController : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D collision){
 		if (collision.tag == "EnemyBullet") {
-			Instantiate(deathSound, gameObject.transform.position, deathSoundTransform.rotation);
 			theLevelManager.Respawn ();
 		}
 	}

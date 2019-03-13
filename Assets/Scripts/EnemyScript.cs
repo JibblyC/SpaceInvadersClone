@@ -7,8 +7,6 @@ public class EnemyScript : MonoBehaviour {
 	public int scoreValue;
 	public Sprite explosionSprite;
 	private LevelManager theLevelManager;
-	public AudioSource explosionAudio;
-
 
 	public GameObject EnemyBulletPrefab;
 	public Transform bulletSpawn;
@@ -30,10 +28,10 @@ public class EnemyScript : MonoBehaviour {
 
 	public IEnumerator destroyEnemy(){
 		theLevelManager.updateScore(scoreValue);
-		Instantiate(explosionAudio, gameObject.transform.position, gameObject.transform.rotation);
+		this.GetComponent<AudioSource>().Play();
 		this.GetComponent<SpriteRenderer>().sprite = explosionSprite;
 		this.GetComponent<SpriteRenderer> ().color = Color.white;
-		yield return new WaitForSeconds (0.5f);
+		yield return new WaitForSeconds (1f);
 		Destroy (gameObject);
 	}
 
@@ -41,6 +39,5 @@ public class EnemyScript : MonoBehaviour {
 		var bullet = (GameObject)Instantiate(EnemyBulletPrefab, this.transform.position, bulletSpawn.rotation);
 		bullet.GetComponent<Rigidbody2D>().velocity = new Vector3(0f,bulletMoveSpeed);
 		bullet.GetComponent<SpriteRenderer> ().color = this.GetComponent<SpriteRenderer> ().color;
-		Debug.Log(this.name + " Firing bullet");
 	}
 }

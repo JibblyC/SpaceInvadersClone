@@ -17,7 +17,9 @@ public class EnemyBulletCheck : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D collision){
 		if (collision.tag == "DestroyBullet" || collision.tag == "Player"){
-			playerController.canFire = true;
+			if (playerController != null) {
+				playerController.canFire = true;
+			}
 			Destroy (gameObject);
 		}
 	}

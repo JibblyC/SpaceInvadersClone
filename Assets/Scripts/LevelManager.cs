@@ -19,9 +19,14 @@ public class LevelManager : MonoBehaviour {
 	private List<GameObject> enemyLineList;
 	private PlayerController playerController;
 	bool currentlyFiring = false;
+
+	public Image live1;
+	public Image live2;
+	public int currentLives;
+
 	//TEsting variables
-	public int testingRow;
-	public int testingEnemy;
+	//public int testingRow;
+	//public int testingEnemy;
 
 	//
 
@@ -30,6 +35,7 @@ public class LevelManager : MonoBehaviour {
 		hiddenScore = 0;
 		enemyBlockMovement = FindObjectOfType<EnemyBlockMovement> ();
 		playerController = FindObjectOfType<PlayerController> ();
+		currentLives = 2;
 	}
 	
 	// Update is called once per frame
@@ -45,12 +51,21 @@ public class LevelManager : MonoBehaviour {
 	}
 
 	public void Respawn(){
+		this.GetComponent<AudioSource>().Play();
 		StartCoroutine ("RespawnCo");
 	}
 
 	public IEnumerator RespawnCo(){
 		playerController.gameObject.SetActive (false);
 		yield return new WaitForSeconds (2f);
+		if (currentLives == 2) {
+			currentLives = 1;
+			Destroy (live2);
+		}else if (currentLives == 1) {
+			currentLives = 0;
+			Destroy (live1);
+		}
+
 		playerController.transform.position = playerController.respawnPosition;
 		playerController.gameObject.SetActive (true);
 	}
